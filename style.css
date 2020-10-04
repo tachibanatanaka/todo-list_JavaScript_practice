@@ -1,0 +1,33 @@
+@charset "UTF-8";
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: rgba(15, 175, 238, 0.7);
+}
+
+.container {
+  max-width: 400px;
+}
+
+input[type=text],
+input[type=text]:focus {
+  color: #101110;
+  border: none;
+  background: rgba(15, 233, 44, 0.8);
+  max-width: 400px;
+}
+.list-group-item{
+  margin-top: 10px;
+  color: rgb(22, 22, 22);
+}
+
+/* 追加 */
+.todos li {
+  background: hsl(123, 85%, 49%,0.6);
+}
+
+/* 追加 */
+.delete {
+  cursor: pointer;
+  color: orange;
+}
+/*# sourceMappingURL=style.css.map */
